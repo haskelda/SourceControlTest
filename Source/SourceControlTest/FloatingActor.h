@@ -1,4 +1,5 @@
 // Fill out your copyright notice in the Description page of Project Settings.
+// source control test
 
 #pragma once
 
@@ -22,9 +23,11 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
+    
+    //I really don't know yet what this variable does...
+    UPROPERTY(EditAnywhere)
     float RunningTime;
-    //float RunningJustintim=0.0;
+    //float RunningJustintime=0.0;
     //here is the source
 	
 };
