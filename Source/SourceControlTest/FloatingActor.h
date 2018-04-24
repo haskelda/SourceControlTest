@@ -23,6 +23,8 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	
+    float RunningTime;
+    //float RunningJustintim=0.0;
+    //here is the source
 	
 };
